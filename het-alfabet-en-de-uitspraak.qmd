@@ -1,3 +1,75 @@
-#  het-alfabet-en-de-uitspraak.qmd 
+# Het Oekraïense alfabet en de uitspraak {#sec-alphabet}
 
- Inhoud komt hier...
+Het Oekraïense alfabet is gebaseerd op het Cyrillische schrift en bestaat uit 33 letters. Het leren van het Oekraïense alfabet en de uitspraak is een belangrijke eerste stap bij het leren van de Oekraïense taal. Hieronder vind je een tabel met het Oekraïense alfabet, de overeenkomstige Nederlandse benamingen en de uitspraak van elke letter.
+
+| Oekraïense letter | Nederlandse benaming | Uitspraak (benadering) |
+| ----------------- | -------------------- | ---------------------- |
+| А, а              | A                    | a (als in "kat")       |
+| Б, б              | Be                   | b                      |
+| В, в              | Ve                   | v                      |
+| Г, г              | Ge                   | h of g (zacht)         |
+| Ґ, ґ              | Ge met een opzetstreepje | g (hard)         |
+| Д, д              | De                   | d                      |
+| Е, е              | Je                   | je (als in "jenever")  |
+| Є, є              | Je met een opzetstreepje | je (als in "jeugd")|
+| Ж, ж              | Zje                  | zh (als in "vision")   |
+| З, з              | Ze                   | z                      |
+| И, и              | I                    | i (als in "vis")       |
+| І, і              | I met een opzetstreepje | i (als in "blik")  |
+| Ї, ї              | Ji met een opzetstreepje | yi (als in "yoga") |
+| Й, й              | Jot                  | y (als in "yes")       |
+| К, к              | Ka                   | k                      |
+| Л, л              | El                   | l                      |
+| М, м              | Em                   | m                      |
+| Н, н              | En                   | n                      |
+| О, о              | O                    | o (als in "bot")       |
+| П, п              | Pe                   | p                      |
+| Р, р              | Er                   | r                      |
+| С, с              | Es                   | s                      |
+| Т, т              | Te                   | t                      |
+| У, у              | Oe                   | oe (als in "voet")     |
+| Ф, ф              | Ef                   | f                      |
+| Х, х              | Cha                  | kh (als in "Bach")     |
+| Ц, ц              | Tse                  | ts                     |
+| Ч, ч              | Tsje                 | ch (als in "check")    |
+| Ш, ш              | Sja                  | sh (als in "shop")     |
+| Щ, щ              | Sjtsja               | shch (als in "fresh cheese") |
+| Ь, ь              | Zachte teken         | - (verzacht de voorafgaande medeklinker) |
+| Ю, ю              | Joo                  | yoe (als in "Joep")    |
+| Я, я              | Ja                   | ya (als in "yacht")    |
+
+De uitspraak in deze tabel is slechts een benadering en dient als een basis voor beginners. De precieze uitspraak kan variëren.
+
+Om verder te oefenen met de uitspraak vind je hieronder een tabel met simpele zinnetjes. Deze zinnen hebben woorden die allemaal met dezelfde letter beginnen (op wat voorzetsels na). Je krijgt in de tweede kolom de uitspraak te lezen en in de derde kolom de Nederlandse vertaling. Veel plezier met oefenen!
+
+| Zin                                  | Uitspraak                            | Nederlandse vertaling                |
+| ------------------------------------ | ------------------------------------ | ------------------------------------ |
+| Ананас апетитно акуратно в апельсин  | ananas apetytno akuratno v apelsin   | Ananas smakelijk en netjes in sinaasappel |
+| Бабуся бачить білку під березою      | babusya bachyt bilku pid berezoyu    | Oma ziet eekhoorn onder de berk      |
+| Ведмідь великий відвідує вербу       | vedmid velykyi vidviduye verbu       | Grote beer bezoekt wilg              |
+| Горобець грається на гілці гарно     | horobets hrayetsya na hiltci harno   | Mus speelt mooi op tak               |
+| Ґава з ґудзиком під ґанок ґрати      | hava z hudzykom pid hanok graty      | Kloof met knoop onder veranda spelen |
+| Дитина дивиться на дельфіна далеко   | dytyna dyvytsya na delfina daleko    | Kind kijkt ver naar dolfijn          |
+| Жираф жує жолудь з жартом            | zhyraf zhuye zholud z zhartom         | Giraf kauwt op eikel met grap        |
+| Зайчик забавляє зебру біля замку     | zaychyk zabavlyaye zebru bilya zamku | Haasje vermaakt zebra bij kasteel    |
+| Їжачок їсть їжу з їдким смаком       | yizhachok yist yizhu z yidkym smakom | Egel eet scherp eten met scherpe smaak |
+| Йогурт йосипа йод з йомого йойка     | yohurt yosypa yod z yomoho yoyka     | Yoghurt jodium van Jozef vanavond zingen |
+| Качка купається в калюжі біля квітки | kachka kupayetsya v kalyuzhi bilya kvitky | Eend baadt in plas bij bloemen      |
+| Лис ловить лелеку легко в лісі       | lys lovyt leleku lehko v lisi        | Vos vangt ooievaar gemakkelijk in bos |
+| Мавка малює місяць мило на марній    | mavka malyuye misyats mylo na marniy | Nimf schildert maan lief en tevergeefs |
+| Носоріг несе нектарини на носі       | nosorih nese nektaryny na nosi       | Neushoorn draagt nectarines op zijn neus |
+| Олень одягає окуляри охайно в офісі  | olen od'yahaye okulary ohayno v ofisi | Hert zet netjes bril op kantoor       |
+| Папуга повторює пісні привітно з птахами | papuha povtoryuye pisni pryvitno z ptakhamy | Papegaai herhaalt liedjes vriendelijk met vogels |
+| Риба регоче радість ритмічно в річці | ryba rehoche radist rytmichno v richci | Vis lacht vrolijk ritmisch in rivier  |
+| Слон сміється на сонці світло й смачно | slon smiyetsya na sontsi svitlo y smachno | Olifant lacht zonnig licht en lekker |
+| Тигр танцює тільки тихо біля троянд  | tyr tanʹtsʹuye tikho bilya troyand  | Tijger danst enkel stil bij rozen     |
+| Улитка усміхається уночі уявляючи щось       | ulitka usmikhaetsya unochi uayvlyayuchy shchos | Slak glimlacht 's nachts, iets inbeeldend |
+| Фея фотографує фрукти на фоні фіалок         | feya fotohrafuye frukty na foni fialok     | Fee fotografeert fruit op achtergrond van viooltjes |
+| Хлопчик хоче хліба хрусткого на хмаринці     | khlopchyk hoche khliba khrustkoho na hmaryntsi | Jongen wil knapperig brood op wolk       |
+| Цирк цікаво цокотить на цементі              | tsyrk tsikavo tsokotyt na tsementi        | Circus klikt interessant op cement      |
+| Чоловік чистить чоботи чемно під часом       | cholovik chystyt choboty chemno pid chasom | Man poetst laarzen zorgvuldig tijdens de tijd |
+| Школяр шукає шлях до школи швидко            | shkolyar shukaye shlyakh do shkoly shvydko | Scholier zoekt snel weg naar school     |
+| Щасливий щук щебече щедро на щодині          | shchaslyvy shchuk shchebeche shedro na shchodini | Gelukkige snoek tjilpt gul elk uur      |
+| Юний юрбаніст юродує в юрти                  | yunyi yurbanist yuroduye v yurti          | Jonge stedenbouwkundige verheugt zich in yurt |
+| Ясен якісно яскраво й ярко на ярмарку        | yasen yakisno yaskravo y yarko na yarmarku | Es kwalitatief helder en fel op de markt |
+

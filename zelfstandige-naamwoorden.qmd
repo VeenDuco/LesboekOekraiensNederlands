@@ -2,6 +2,8 @@
 
 In dit hoofdstuk behandelen we zelfstandige naamwoorden in het Oekraïens. We zullen ingaan op geslacht, naamvallen, meervoudsvormen en enkele belangrijke regels met betrekking tot zelfstandige naamwoorden.
 
+Een zelfstandig naamwoord is een woord dat wordt gebruikt om een persoon, dier, plaats, object, idee of gebeurtenis te benoemen. In zowel het Nederlands als het Oekraïens zijn zelfstandige naamwoorden essentieel in de grammaticale structuur van zinnen, omdat ze fungeren als het onderwerp of object van een werkwoord. Zelfstandige naamwoorden zijn er in verschillende geslachten (mannelijk, vrouwelijk en onzijdig) en worden meestal beïnvloed door verbuigingen op basis van de naamval waarin ze voorkomen.
+
 ## Geslacht van zelfstandige naamwoorden
 
 Oekraïense zelfstandige naamwoorden hebben drie geslachten: mannelijk, vrouwelijk en onzijdig. In dit gedeelte leer je hoe je het geslacht van een zelfstandig naamwoord kunt herkennen.
@@ -28,16 +30,58 @@ Enkele voorbeelden van mannelijke zelfstandige naamwoorden in het Oekraïens zij
 - учитель (leraar)
 - книга (boek)
 
-Nu je weet hoe je mannelijke zelfstandige naamwoorden kunt herkennen, kun je verder gaan met het leren van andere kenmerken van zelfstandige naamwoorden in het Oekraïens, zoals vrouwelijke en onzijdige zelfstandige naamwoorden, naamvallen en verbuiging.
+Nu je weet hoe je mannelijke zelfstandige naamwoorden kunt herkennen, kun je verder gaan met het leren van andere kenmerken van zelfstandige naamwoorden in het Oekraïens, zoals vrouwelijke en onzijdige zelfstandige naamwoorden.
 
 
 ### Vrouwelijke zelfstandige naamwoorden
 
-(Tekst over vrouwelijke zelfstandige naamwoorden en hoe ze te herkennen.)
+Vrouwelijke zelfstandige naamwoorden vormen een andere belangrijke groep in de Oekraïense taal. Ze worden vaak gebruikt om vrouwelijke personen, dieren, objecten en concepten aan te duiden. Het herkennen van vrouwelijke zelfstandige naamwoorden is essentieel om de juiste grammaticale regels toe te passen, zoals verbuiging en overeenstemming met bijvoeglijke naamwoorden. Hier zijn enkele richtlijnen om vrouwelijke zelfstandige naamwoorden in het Oekraïens te identificeren:
+
+1. **Eindletter**: Vrouwelijke zelfstandige naamwoorden eindigen meestal op -а, -я, -ь of -і. Deze eindletters komen vaak voor bij vrouwelijke zelfstandige naamwoorden, hoewel er enkele uitzonderingen zijn.
+
+2. **Verbuiging**: Vrouwelijke zelfstandige naamwoorden volgen specifieke verbuigingspatronen in verschillende naamvallen. Als je merkt dat een zelfstandig naamwoord een vrouwelijk verbuigingspatroon volgt, is het hoogstwaarschijnlijk een vrouwelijk zelfstandig naamwoord.
+
+3. **Woordbetekenis**: In sommige gevallen kan de betekenis van het woord je helpen het geslacht te bepalen. Vrouwelijke zelfstandige naamwoorden verwijzen vaak naar vrouwelijke personen of dieren, zoals мама (moeder) en кішка (kat).
+
+4. **Overeenstemming met bijvoeglijke naamwoorden**: Vrouwelijke zelfstandige naamwoorden stemmen overeen met vrouwelijke bijvoeglijke naamwoorden. Als je merkt dat een zelfstandig naamwoord wordt voorafgegaan of gevolgd door een vrouwelijk bijvoeglijk naamwoord, kun je er vrij zeker van zijn dat het zelfstandig naamwoord vrouwelijk is.
+
+Het is belangrijk op te merken dat er altijd uitzonderingen zijn op de bovengenoemde regels. Hoewel deze richtlijnen je kunnen helpen bij het identificeren van veel vrouwelijke zelfstandige naamwoorden, is het raadzaam om bekend te raken met de woordenschat en de verschillende verbuigingen van zelfstandige naamwoorden om nauwkeuriger te zijn in je identificatie.
+
+Enkele voorbeelden van vrouwelijke zelfstandige naamwoorden in het Oekraïens zijn:
+
+- країна (land)
+- кімната (kamer)
+- людина (persoon)
+- дорога (weg)
+- річка (rivier)
+
+Nu je weet hoe je vrouwelijke zelfstandige naamwoorden kunt herkennen, kun je verder gaan met het leren van het volgende kenmerk van zelfstandige naamwoorden in het Oekraïens, onzijdige zelfstandige naamwoorden.
+
 
 ### Onzijdige zelfstandige naamwoorden
 
-(Tekst over onzijdige zelfstandige naamwoorden en hoe ze te herkennen.)
+Onzijdige zelfstandige naamwoorden vormen de derde belangrijke groep in de Oekraïense taal. Ze worden gebruikt om objecten, dieren, concepten en ideeën aan te duiden die noch mannelijk noch vrouwelijk zijn.  Hier zijn enkele richtlijnen om onzijdige zelfstandige naamwoorden in het Oekraïens te identificeren:
+
+1. **Eindletter**: Onzijdige zelfstandige naamwoorden eindigen meestal op -о, -е, of -я. Deze eindletters komen vaak voor bij onzijdige zelfstandige naamwoorden, hoewel er enkele uitzonderingen zijn.
+
+2. **Verbuiging**: Ook onzijdige zelfstandige naamwoorden volgen specifieke verbuigingspatronen in verschillende naamvallen. Als je merkt dat een zelfstandig naamwoord een onzijdig verbuigingspatroon volgt, is het hoogstwaarschijnlijk een onzijdig zelfstandig naamwoord.
+
+3. **Woordbetekenis**: In sommige gevallen kan de betekenis van het woord je helpen het geslacht te bepalen. Onzijdige zelfstandige naamwoorden verwijzen vaak naar objecten, dieren of concepten zonder een specifiek geslacht, zoals вікно (raam) en місто (stad).
+
+4. **Overeenstemming met bijvoeglijke naamwoorden**: Onzijdige zelfstandige naamwoorden stemmen overeen met onzijdige bijvoeglijke naamwoorden. Als je merkt dat een zelfstandig naamwoord wordt voorafgegaan of gevolgd door een onzijdig bijvoeglijk naamwoord, kun je er vrij zeker van zijn dat het zelfstandig naamwoord onzijdig is.
+
+Het is belangrijk op te merken dat er altijd uitzonderingen zijn op de bovengenoemde regels. Hoewel deze richtlijnen je kunnen helpen bij het identificeren van veel onzijdige zelfstandige naamwoorden, is het raadzaam om bekend te raken met de woordenschat en de verschillende verbuigingen van zelfstandige naamwoorden om nauwkeuriger te zijn in je identificatie.
+
+Enkele voorbeelden van onzijdige zelfstandige naamwoorden in het Oekraïens zijn:
+
+- дерево (boom)
+- море (zee)
+- село (dorp)
+- поле (veld)
+- кільце (ring)
+
+Nu je weet hoe je onzijdige zelfstandige naamwoorden kunt herkennen, kun je verder gaan met het leren van andere kenmerken van zelfstandige naamwoorden in het Oekraïens, zoals naamvallen en verbuiging.
+
 
 ## Naamvallen
 
