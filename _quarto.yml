@@ -10,7 +10,7 @@ book:
   - index.qmd
   - part: inleiding-tot-de-oekraïense-taal.qmd
     chapters: 
-      - geschiedenis-en-achtergrond.qmd
+     # - geschiedenis-en-achtergrond.qmd
       - het-alfabet-en-de-uitspraak.qmd
   - part: Basisgrammatica.qmd
     chapters:
@@ -19,19 +19,19 @@ book:
       - werkwoorden.qmd
       - telwoorden.qmd
       - voorzetsels-en-bijwoorden.qmd
-  - part: Dagelijkse communicatie.qmd
-    chapters:
-      - begroetingen-en-afscheid-nemen.qmd
-      - zichzelf-voorstellen-en-anderen-leren-kennen.qmd
-      - eten-en-drinken.qmd
-      - winkelen-en-betalen.qmd
-      - vervoer-en-reizen.qmd
-  - part: Oefeningen en opdrachten.qmd
-    chapters:
-     - luisteroefeningen.qmd
-     - leesoefeningen.qmd
-     - schrijfoefeningen.qmd
-     - spreek-en-conversatieoefeningen.qmd
+  # - part: Dagelijkse communicatie.qmd
+  #   chapters:
+  #     - begroetingen-en-afscheid-nemen.qmd
+  #     - zichzelf-voorstellen-en-anderen-leren-kennen.qmd
+  #     - eten-en-drinken.qmd
+  #     - winkelen-en-betalen.qmd
+  #     - vervoer-en-reizen.qmd
+  # - part: Oefeningen en opdrachten.qmd
+  #   chapters:
+  #    - luisteroefeningen.qmd
+  #    - leesoefeningen.qmd
+  #    - schrijfoefeningen.qmd
+  #    - spreek-en-conversatieoefeningen.qmd
 
 # onderstaande nog aanpassen
 #   part: "Woordenlijst en nuttige zinnen"
@@ -46,7 +46,7 @@ book:
   - part: Appendixes.qmd
     chapters:
     - references.qmd  
-    - gpt4history.qmd
+    #- gpt4history.qmd
 
     
 bibliography: references.bib
