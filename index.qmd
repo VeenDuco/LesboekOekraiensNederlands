@@ -1,3 +1,5 @@
 # Preface {.unnumbered}
 
-Kijk eens even in @sec-alphabet of @sec-zelfstandige-naamwoorden. 
+Dit boek is een poging om in samenwerking met GPT-4 een lesboek voor mijzelf te maken. Dit lesboek draait om het leren van de Oekraïense taal. Of het zal werken, dat is afwachten. Maar ik begin met goede moed en werk dit steeds een beetje verder bij. 
+
+Ben je al nieuwsgierig naar hoe het opschiet? Kijk eens even in @sec-alphabet of @sec-zelfstandige-naamwoorden. 
