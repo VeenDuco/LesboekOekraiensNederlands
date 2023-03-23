@@ -1,0 +1,73 @@
+# Hogere getallen in het Oekraïens {#sec-hogere-getallen}
+
+**UNDER CONSTRUCTION**  
+
+Om hogere getallen in het Oekraïens te leren, beginnen we met het leren van de honderdtallen, duizendtallen en nog grotere getallen.
+
+## Honderdtallen
+
+Honderdtallen worden gevormd door het cijfer te combineren met het woord "сто" (sto), wat "honderd" betekent. Hier zijn de honderdtallen van 100 tot en met 900:
+
+| Getal | Oekraïens     | Uitspraak    |
+| ------------- | ------------ | ----------- |
+| 100           | сто          | sto         |
+| 200           | двісті       | dvisti      |
+| 300           | триста       | trysta      |
+| 400           | чотириста    | chotyrista  |
+| 500           | п'ятсот      | pyatsot     |
+| 600           | шістсот      | shistsot    |
+| 700           | сімсот       | simsot      |
+| 800           | вісімсот     | visimsot    |
+| 900           | дев'ятсот    | devyatsot   |
+
+Om getallen tussen honderdtallen te vormen, combineer je eenvoudigweg het honderdtal met de tientallen en enkelvoudige cijfers die je eerder hebt geleerd. Bijvoorbeeld, 157 wordt "сто п'ятдесят і сім" (sto pyatdesyat i sim).
+
+## Duizendtallen
+
+Het woord voor "duizend" in het Oekraïens is "тисяча" (tysyacha). Om duizendtallen te vormen, combineer je het cijfer met "тисяча". Houd er rekening mee dat het woord "тисяча" verandert afhankelijk van het cijfer waarmee het wordt gecombineerd:
+
+| Getal | Oekraïens     | Uitspraak    | 
+| ------------- | ------------ | ----------- |
+| 1.000         | одна тисяча  | odna tysyacha   |
+| 2.000         | дві тисячі   | dvi tysyachi    |
+| 3.000         | три тисячі   | try tysyachi    |
+| 4.000         | чотири тисячі| chotyry tysyachi|
+
+Let op dat het woord "тисяча" (tysyacha) verandert in "тисячі" (tysyachi) bij getallen van 2.000 tot 4.000.
+
+Om getallen tussen duizendtallen te vormen, combineer je eenvoudigweg het duizendtal met de honderdtallen, tientallen en enkelvoudige cijfers die je eerder hebt geleerd. Bijvoorbeeld, 3.542 wordt "три тисячі п'ятсот сорок i два". 
+
+Voor grotere getallen, zoals tienduizenden en honderdduizenden, combineer je de getallen die je al kent:
+
+- 10.000: "десять тисяч" (desyat tysyach)
+- 100.000: "сто тисяч" (sto tysy
+
+
+
+
+## Duizendtallen
+
+In het Oekraïens is het woord voor 1.000 "тисяча" (tysyacha). Om getallen van 1.000 tot 9.999 te vormen, voeg je eenvoudigweg het juiste meervoud van "тисяча" toe aan het getal. Hier zijn enkele voorbeelden:
+
+| Getal | Oekraïens         | Uitspraak     | 
+| ----------------- | ------------- | ---------- |
+| 1.000             | одна тисяча   | odna tysyacha  |
+| 2.000             | дві тисячі    | dvi tysyachi   |
+| 3.000             | три тисячі    | try tysyachi   |
+| 4.000             | чотири тисячі | chotyry tysyachi |
+
+Voor getallen tussen de duizendtallen, voeg je de honderdtallen, tientallen en eenheden toe zoals eerder geleerd. Bijvoorbeeld, 1.234 is "одна тисяча двісті тридцять чотири" (odna tysyacha dvisti trydtsyat chotyry).
+
+## Tienduizendtallen en hoger
+
+Om getallen van 10.000 en hoger te vormen, gebruik je dezelfde methode als voor duizendtallen. Het woord voor 10.000 is "десять тисяч" (desyat tysyach), en voor 100.000 is het "сто тисяч" (sto tysyach). Voor getallen boven de 100.000, zoals miljoenen, gebruik je het woord "мільйон" (miljon) en voeg je het getal ervoor toe. Hier zijn enkele voorbeelden:
+
+| Oekraïens                | Uitspraak           | Nederlands          |
+| ------------------------ | ------------------- | ------------------- |
+| 10.000                   | десять тисяч        | desyat tysyach      |
+| 100.000                  | сто тисяч           | sto tysyach         |
+| 1.000.000                | один мільйон        | odyn miljon         |
+| 2.000.000                | два мільйони        | dva miljony         |
+
+Volg deze stappen en je kunt alle getallen in het Oekraïens leren, van 1 tot in de miljoenen en verder.
+

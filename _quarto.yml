@@ -12,6 +12,7 @@ book:
     chapters: 
      # - geschiedenis-en-achtergrond.qmd
       - het-alfabet-en-de-uitspraak.qmd
+      - basis-uitdrukkingen-en-woordenschat.qmd
   - part: Basisgrammatica.qmd
     chapters:
       - zelfstandige-naamwoorden.qmd
@@ -19,8 +20,9 @@ book:
       - werkwoorden.qmd
       - telwoorden.qmd
       - voorzetsels-en-bijwoorden.qmd
-  # - part: Dagelijkse communicatie.qmd
-  #   chapters:
+  - part: Dagelijkse communicatie.qmd
+    chapters:
+      - hogere-getallen.qmd
   #     - begroetingen-en-afscheid-nemen.qmd
   #     - zichzelf-voorstellen-en-anderen-leren-kennen.qmd
   #     - eten-en-drinken.qmd
