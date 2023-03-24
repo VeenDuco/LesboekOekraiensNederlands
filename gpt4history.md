@@ -1,4 +1,4 @@
-# Oekraïns leren hulp.
+# Chatgeschiedenis GPT-4 Lesboek
 
 **Human:**
 Hallo, kan je mij helpen om Oekraïns te leren? 
@@ -1197,6 +1197,7 @@ Ga nu graag verder met een stuk tekst voor de sectie over dagen van de week, maa
 **Assistant:**
 
 ```
+## Dagen
 
 ```
 
@@ -1392,4 +1393,30 @@ Deze tabel bevat enkele van de meest voorkomende bestemmingen waar je mogelijk n
 
 ***
 
-Exported on March 24, 2023 1:38 PM.
+**Human:**
+Bekijk via de onderstaande links hoe de hoofdstukken "het alfabet en de uitspraak" en "basis uitdrukkingen en woordenschat" zijn geworden. Op basis daarvan, schrijf voor de sectie "inleinding tot de oekraiense taal" voor dit boek de sectie. Deze sectie is de inleidende tekst voor die twee reeds gemaakte hoofdstukken. Doe dit zodat ik het kan kopieeren naar een .md format.
+
+https://veenduco.github.io/LesboekOekraiensNederlands/het-alfabet-en-de-uitspraak.html
+https://veenduco.github.io/LesboekOekraiensNederlands/basis-uitdrukkingen-en-woordenschat.html
+
+***
+
+**Assistant:**
+
+```
+# Inleiding tot de Oekraïense taal
+
+Welkom bij dit lesboek Oekraïens voor Nederlandstaligen! Dit boek is bedoeld om je te helpen de basisprincipes van de Oekraïense taal te leren en je te voorzien van de belangrijkste woorden en zinnen die je nodig hebt om jezelf verstaanbaar te maken in Oekraïne. In dit boek zullen we beginnen met het leren van het Oekraïense alfabet en de uitspraak, gevolgd door enkele basisuitdrukkingen en woordenschat die je zullen helpen bij het communiceren met Oekraïenssprekenden.
+
+In het hoofdstuk ["Het alfabet en de uitspraak"](https://veenduco.github.io/LesboekOekraiensNederlands/het-alfabet-en-de-uitspraak.html) leer je het Oekraïense alfabet en hoe je de letters correct uitspreekt. Dit is een belangrijke basis voor het leren van de taal, omdat het je in staat stelt om Oekraïense woorden correct te lezen en uit te spreken.
+
+In het hoofdstuk ["Basis uitdrukkingen en woordenschat"](https://veenduco.github.io/LesboekOekraiensNederlands/basis-uitdrukkingen-en-woordenschat.html) vind je een verzameling van de meest voorkomende en nuttige woorden en zinnen die je kunt gebruiken in alledaagse situaties. Deze sectie bevat begroetingen, afscheid nemen, persoonlijke informatie, getallen en tellen, dagen van de week, maanden en seizoenen, eten en drinken, familie en relaties, en vervoer en richtingen.
+
+We hopen dat dit lesboek je helpt bij het leren van de Oekraïense taal en dat je er plezier aan beleeft. Veel succes met je taalstudie!
+
+```
+
+
+***
+
+Exported on March 24, 2023 2:08 PM.
