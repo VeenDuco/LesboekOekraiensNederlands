@@ -5,7 +5,7 @@ project:
 book:
   title: "Lesboek Oekraïens voor Nederlandstaligen"
   author: "Duco Veen, gebaseerd op GPT-4 output"
-  date: "`r Sys.Date()`"
+  date: "`r format(Sys.time(), '%d %B, %Y')`"
   chapters:
   - index.qmd
   - part: inleiding-tot-de-oekraïense-taal.qmd
@@ -48,7 +48,7 @@ book:
   - part: Appendixes.qmd
     chapters:
     - references.qmd  
-    #- gpt4history.qmd
+    - gpt4history.md
 
     
 bibliography: references.bib
