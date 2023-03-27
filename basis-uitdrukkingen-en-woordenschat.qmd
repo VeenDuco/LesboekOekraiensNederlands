@@ -98,8 +98,8 @@ Nu we wat persoonlijke informatie weten is het wellicht ook handig om te kunen v
 |-----------|-----------|------------|
 | друг | druh | vriend |
 | подруга | podruga | vriendin |
-| коханець | kohanets' | vriendje (romantisch) |
-| коханка | kohanka | vriendinnetje (romantisch) |
+| коханець | kohanets' | ~~vriendje (romantisch)~~ |
+| коханка | kohanka | ~~vriendinnetje (romantisch)~~ |
 | колега | kolega | collega |
 | сусід | susid | buur(man) |
 | сусідка | susidka | buurvrouw |
@@ -155,23 +155,22 @@ Om de getallen van 1 tot en met 99 in het Oekraïens te leren, willen we misschi
 Om nu de getallen van 21 tot en met 99 te vormen, volg je deze stappen:
 
 1. Begin met het tiental. Bijvoorbeeld, voor 25 begin je met "двадцять" (dvadtsyat), wat 20 betekent.
-2. Voeg vervolgens het woord "і" (i) toe, wat "en" betekent.
-3. Ten slotte voeg je het enkelvoudige cijfer toe, zoals "п'ять" (pyat) voor 5.
+2. Voeg het enkelvoudige cijfer toe, zoals "п'ять" (pyat) voor 5.
 
-Dus het getal 25 wordt in het Oekraïens "двадцять і п'ять" (dvadtsyat i pyat).
+Dus het getal 25 wordt in het Oekraïens "двадцять п'ять" (dvadtsyat pyat).
 
 Hier zijn enkele voorbeelden van getallen tussen 21 en 99:
 
 | Getal | Oekraïens                 | Uitspraak              | 
 | ------------------------- | ---------------------- | ---------- |
-| 23                        | двадцять і три         | dvadtsyat i try         |
-| 37                        | тридцять і сім         | trydtsyat i sim         |
-| 48                        | сорок і вісім          | sorok i visim           |
-| 59                        | п'ятдесят і дев'ять    | pyatdesyat i devyat     |
-| 65                        | шістдесят і п'ять      | shistdesyat i pyat      |
-| 78                        | сімдесят і вісім       | simdesyat i visim       |
-| 86                        | вісімдесят і шість     | visimdesyat i shist     |
-| 94                        | дев'яносто і чотири    | devyanosto i chotyry    |
+| 23                        | двадцять три         | dvadtsyat try         |
+| 37                        | тридцять сім         | trydtsyat sim         |
+| 48                        | сорок вісім          | sorok visim           |
+| 59                        | п'ятдесят дев'ять    | pyatdesyat devyat     |
+| 65                        | шістдесят п'ять      | shistdesyat pyat      |
+| 78                        | сімдесят вісім       | simdesyat visim       |
+| 86                        | вісімдесят шість     | visimdesyat shist     |
+| 94                        | дев'яносто чотири    | devyanosto chotyry    |
 
 Volg deze stappen en je kunt nu alle getallen van 1 tot en met 99 in het Oekraïens leren.
 
@@ -307,6 +306,102 @@ Deze tabel bevat enkele van de meest voorkomende bestemmingen waar je mogelijk n
 | супермаркет | supermarket | supermarkt |
 
 
+## Oefeningen
+
+
+<!-- <details> -->
+<!--   <summary>Hoe zeg je "hallo" in het Oekraïens? <br> <input type="text" placeholder="Typ hier" name="input"> </summary> -->
+
+<!--   "Hallo" in het Oekraïens is "Привіт" (Pryvit). -->
+<!-- </details> -->
+
+
+<!-- Answer: <input type="text" name="website" required pattern="Привіт"> -->
+
+
+<!-- <div> -->
+<!--   <p id="question">1. Hoe zeg je "hallo" in het Oekraïens?</p> -->
+<!--   <input type="text" id="answer-input"> -->
+<!--   <button onclick="checkAnswer()">Controleer</button> -->
+<!--   <p id="result" style="display: none;"></p> -->
+<!-- </div> -->
+
+<!-- <script> -->
+<!--   function checkAnswer() { -->
+<!--     const userInput = document.getElementById("answer-input").value; -->
+<!--     const correctAnswer = "Привіт"; -->
+<!--     if (userInput.toLowerCase() === correctAnswer.toLowerCase()) { -->
+<!--       document.getElementById("result").textContent = "Correct!"; -->
+<!--       document.getElementById("result").style.color = "green"; -->
+<!--     } else { -->
+<!--       document.getElementById("result").textContent = "Niet correct, the juiste antwoord is Привіт."; -->
+<!--       document.getElementById("result").style.color = "red"; -->
+<!--     } -->
+<!--     document.getElementById("result").style.display = "block"; -->
+<!--   } -->
+<!-- </script> -->
+
+
+<!-- Vraag 2 -->
+<!-- <div> -->
+<!--   <p id="question2">2. Hoe zeg je "tot ziens" in het Oekraïens?</p> -->
+<!--   <input type="text" id="answer-input2"> -->
+<!--   <button onclick="checkAnswer2()">Controleer</button> -->
+<!--   <p id="result2" style="display: none;"></p> -->
+<!-- </div> -->
+
+<!-- <script> -->
+<!--   function checkAnswer2() { -->
+<!--     const userInput = document.getElementById("answer-input2").value; -->
+<!--     const correctAnswer = "До побачення"; -->
+<!--     if (userInput.toLowerCase() === correctAnswer.toLowerCase()) { -->
+<!--       document.getElementById("result2").textContent = "Correct!"; -->
+<!--       document.getElementById("result2").style.color = "green"; -->
+<!--     } else { -->
+<!--       document.getElementById("result2").textContent = "Niet correct, het juiste antwoord is До побачення."; -->
+<!--       document.getElementById("result2").style.color = "red"; -->
+<!--     } -->
+<!--     document.getElementById("result2").style.display = "block"; -->
+<!--   } -->
+<!-- </script> -->
+
+<!-- Vragen en antwoorden uit CSV-bestand -->
+
+<!-- Vragen en antwoorden uit CSV-bestand -->
+<script>
+  const questions = ["Hoe zeg je 'hallo' in het Oekraïens?", "Hoe zeg je 'tot ziens' in het Oekraïens?", "Hoe zeg je 'alstublieft' in het Oekraïens?"];
+  const answers = ["Привіт", "До побачення", "Будь ласка"];
+
+  function checkAnswerCSV(questionIndex) {
+    const userInput = document.getElementById("answer-input" + questionIndex).value;
+    const correctAnswer = answers[questionIndex];
+    if (userInput.toLowerCase() === correctAnswer.toLowerCase()) {
+      document.getElementById("result" + questionIndex).textContent = "Correct!";
+      document.getElementById("result" + questionIndex).style.color = "green";
+    } else {
+      document.getElementById("result" + questionIndex).textContent = "Niet correct, het juiste antwoord is " + correctAnswer + ".";
+      document.getElementById("result" + questionIndex).style.color = "red";
+    }
+    document.getElementById("result" + questionIndex).style.display = "block";
+  }
+</script>
+
+<!-- Vragen en antwoorden weergeven -->
+<div>
+  <div id="qa-container"></div>
+  <script>
+    for (let i = 0; i < questions.length; i++) {
+      const questionElement = document.createElement("div");
+      questionElement.innerHTML = `
+        <p id="question${i}">${i + 1}. ${questions[i]}</p>
+        <input type="text" id="answer-input${i}">
+        <button onclick="checkAnswerCSV(${i})">Controleer</button>
+        <p id="result${i}" style="display: none;"></p>
+      `;
+      document.getElementById("qa-container").appendChild(questionElement);
+    }
+  </script>
+</div>
 
 
 <!-- ## Kleuren -->
