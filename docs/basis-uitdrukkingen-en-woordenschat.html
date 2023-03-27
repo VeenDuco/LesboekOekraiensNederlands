@@ -1247,11 +1247,13 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="oefeningen" class="level2" data-number="2.10">
 <h2 data-number="2.10" class="anchored" data-anchor-id="oefeningen"><span class="header-section-number">2.10</span> Oefeningen</h2>
+<!-- per unieke vraag, zonder controle -->
 <!-- <details> -->
 <!--   <summary>Hoe zeg je "hallo" in het Oekraïens? <br> <input type="text" placeholder="Typ hier" name="input"> </summary> -->
 <!--   "Hallo" in het Oekraïens is "Привіт" (Pryvit). -->
 <!-- </details> -->
 <!-- Answer: <input type="text" name="website" required pattern="Привіт"> -->
+<!-- per unieke vraag -->
 <!-- <div> -->
 <!--   <p id="question">1. Hoe zeg je "hallo" in het Oekraïens?</p> -->
 <!--   <input type="text" id="answer-input"> -->
@@ -1272,32 +1274,68 @@ ul.task-list li input[type="checkbox"] {
 <!--     document.getElementById("result").style.display = "block"; -->
 <!--   } -->
 <!-- </script> -->
-<!-- Vraag 2 -->
-<!-- <div> -->
-<!--   <p id="question2">2. Hoe zeg je "tot ziens" in het Oekraïens?</p> -->
-<!--   <input type="text" id="answer-input2"> -->
-<!--   <button onclick="checkAnswer2()">Controleer</button> -->
-<!--   <p id="result2" style="display: none;"></p> -->
-<!-- </div> -->
-<!-- <script> -->
-<!--   function checkAnswer2() { -->
-<!--     const userInput = document.getElementById("answer-input2").value; -->
-<!--     const correctAnswer = "До побачення"; -->
-<!--     if (userInput.toLowerCase() === correctAnswer.toLowerCase()) { -->
-<!--       document.getElementById("result2").textContent = "Correct!"; -->
-<!--       document.getElementById("result2").style.color = "green"; -->
-<!--     } else { -->
-<!--       document.getElementById("result2").textContent = "Niet correct, het juiste antwoord is До побачення."; -->
-<!--       document.getElementById("result2").style.color = "red"; -->
-<!--     } -->
-<!--     document.getElementById("result2").style.display = "block"; -->
-<!--   } -->
-<!-- </script> -->
-<!-- Vragen en antwoorden uit CSV-bestand -->
 <!-- Vragen en antwoorden uit CSV-bestand -->
 <script>
-  const questions = ["Hoe zeg je 'hallo' in het Oekraïens?", "Hoe zeg je 'tot ziens' in het Oekraïens?", "Hoe zeg je 'alstublieft' in het Oekraïens?"];
-  const answers = ["Привіт", "До побачення", "Будь ласка"];
+const questions = [
+  "Hoe zeg je 'hallo' in het Oekraïens?",
+  "Hoe zeg je 'tot ziens' in het Oekraïens?",
+  "Hoe zeg je 'alstublieft' in het Oekraïens?",
+  "Hoe zeg je 'ik' in het Oekraïens?",
+  "Hoe zeg je 'jij' in het Oekraïens?",
+  "Hoe zeg je 'hij' in het Oekraïens?",
+  "Hoe zeg je 'zij (vrouwelijk)' in het Oekraïens?",
+  "Hoe zeg je 'het' in het Oekraïens?",
+  "Wat betekent 'Привіт' in het Nederlands?",
+  "Wat betekent 'Добрий ранок' in het Nederlands?",
+  "Wat betekent 'Добрий день' in het Nederlands?",
+  "Wat betekent 'Добрий вечір' in het Nederlands?",
+  "Wat betekent 'Добраніч' in het Nederlands?",
+  "Wat betekent 'Бувайте' in het Nederlands?",
+  "Wat betekent 'До побачення' in het Nederlands?",
+  "Wat betekent 'Будь ласка' in het Nederlands?",
+  "Wat betekent 'Дякую' in het Nederlands?",
+  "Wat betekent 'Вибачте' in het Nederlands?",
+  "Wat betekent 'Немає проблем' in het Nederlands?",
+  "Wat betekent 'Як справи?' in het Nederlands?",
+  "Wat betekent 'Добре' in het Nederlands?",
+  "Wat betekent 'Згода' in het Nederlands?",
+  "Wat betekent 'я' in het Nederlands?",
+  "Wat betekent 'ти' in het Nederlands?",
+  "Wat betekent 'він' in het Nederlands?",
+  "Wat betekent 'вона' in het Nederlands?",
+  "Wat betekent 'воно' in het Nederlands?"
+];
+
+const answers = [
+  "Привіт",
+  "До побачення",
+  "Будь ласка",
+  "я",
+  "ти",
+  "він",
+  "вона",
+  "воно",
+  "Hallo",
+  "Goedemorgen",
+  "Goedemiddag",
+  "Goede avond",
+  "Goede nacht",
+  "Tot ziens",
+  "Tot ziens",
+  "Alstublieft",
+  "Dank u",
+  "Sorry",
+  "Geen probleem",
+  "Hoe gaat het?",
+  "Goed",
+  "Akkoord",
+  "ik",
+  "jij",
+  "hij",
+  "zij (vrouwelijk)",
+  "het"
+];
+
 
   function checkAnswerCSV(questionIndex) {
     const userInput = document.getElementById("answer-input" + questionIndex).value;
@@ -1306,30 +1344,57 @@ ul.task-list li input[type="checkbox"] {
       document.getElementById("result" + questionIndex).textContent = "Correct!";
       document.getElementById("result" + questionIndex).style.color = "green";
     } else {
-      document.getElementById("result" + questionIndex).textContent = "Niet correct, het juiste antwoord is " + correctAnswer + ".";
+      document.getElementById("result" + questionIndex).textContent = "Niet correct, het juiste antwoord is '" + correctAnswer + "'.";
       document.getElementById("result" + questionIndex).style.color = "red";
     }
     document.getElementById("result" + questionIndex).style.display = "block";
   }
 </script>
-<!-- Vragen en antwoorden weergeven -->
+<!-- Vragen en antwoorden - 3 weergeven willekeurig-->
 <div>
 <div id="qa-container">
 
 </div>
 <script>
-    for (let i = 0; i < questions.length; i++) {
+    function getRandomQuestions(numQuestions) {
+      const randomIndices = new Set();
+      while (randomIndices.size < numQuestions) {
+        const index = Math.floor(Math.random() * questions.length);
+        randomIndices.add(index);
+      }
+      return Array.from(randomIndices);
+    }
+
+    const randomIndices = getRandomQuestions(5);
+
+    for (const index of randomIndices) {
       const questionElement = document.createElement("div");
       questionElement.innerHTML = `
-        <p id="question${i}">${i + 1}. ${questions[i]}</p>
-        <input type="text" id="answer-input${i}">
-        <button onclick="checkAnswerCSV(${i})">Controleer</button>
-        <p id="result${i}" style="display: none;"></p>
+        <p id="question${index}"> ${questions[index]}</p>
+        <input type="text" id="answer-input${index}">
+        <button onclick="checkAnswerCSV(${index})">Controleer</button>
+        <p id="result${index}" style="display: none;"></p>
       `;
       document.getElementById("qa-container").appendChild(questionElement);
     }
   </script>
 </div>
+<!-- Vragen en antwoorden weergeven Niet willekeurig, maar alles - -->
+<!-- <div> -->
+<!--   <div id="qa-container"></div> -->
+<!--   <script> -->
+<!--     for (let i = 0; i < questions.length; i++) { -->
+<!--       const questionElement = document.createElement("div"); -->
+<!--       questionElement.innerHTML = ` -->
+<!--         <p id="question${i}">${i + 1}. ${questions[i]}</p> -->
+<!--         <input type="text" id="answer-input${i}"> -->
+<!--         <button onclick="checkAnswerCSV(${i})">Controleer</button> -->
+<!--         <p id="result${i}" style="display: none;"></p> -->
+<!--       `; -->
+<!--       document.getElementById("qa-container").appendChild(questionElement); -->
+<!--     } -->
+<!--   </script> -->
+<!-- </div> -->
 <!-- ## Kleuren -->
 <!-- Basis kleuren zoals rood, blauw, groen, geel, etc. -->
 
