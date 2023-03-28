@@ -213,6 +213,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#dagen-van-de-week" id="toc-dagen-van-de-week" class="nav-link" data-scroll-target="#dagen-van-de-week"><span class="toc-section-number">2.7.1</span>  Dagen van de week</a></li>
   <li><a href="#maanden" id="toc-maanden" class="nav-link" data-scroll-target="#maanden"><span class="toc-section-number">2.7.2</span>  Maanden</a></li>
   <li><a href="#seizoenen" id="toc-seizoenen" class="nav-link" data-scroll-target="#seizoenen"><span class="toc-section-number">2.7.3</span>  Seizoenen</a></li>
+  <li><a href="#oefeningen" id="toc-oefeningen" class="nav-link" data-scroll-target="#oefeningen"><span class="toc-section-number">2.7.4</span>  Oefeningen</a></li>
   </ul></li>
   <li><a href="#eten-en-drinken" id="toc-eten-en-drinken" class="nav-link" data-scroll-target="#eten-en-drinken"><span class="toc-section-number">2.8</span>  Eten en drinken</a>
   <ul class="collapse">
@@ -225,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#richtingen" id="toc-richtingen" class="nav-link" data-scroll-target="#richtingen"><span class="toc-section-number">2.9.2</span>  Richtingen</a></li>
   <li><a href="#bestemmingen" id="toc-bestemmingen" class="nav-link" data-scroll-target="#bestemmingen"><span class="toc-section-number">2.9.3</span>  Bestemmingen</a></li>
   </ul></li>
-  <li><a href="#oefeningen" id="toc-oefeningen" class="nav-link" data-scroll-target="#oefeningen"><span class="toc-section-number">2.10</span>  Oefeningen</a></li>
+  <li><a href="#oefeningen-1" id="toc-oefeningen-1" class="nav-link" data-scroll-target="#oefeningen-1"><span class="toc-section-number">2.10</span>  Oefeningen</a></li>
   </ul>
 </nav>
     </div>
@@ -1047,6 +1048,269 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 </section>
+<section id="oefeningen" class="level3" data-number="2.7.4">
+<h3 data-number="2.7.4" class="anchored" data-anchor-id="oefeningen"><span class="header-section-number">2.7.4</span> Oefeningen</h3>
+<p>Deze oefening blijft zichzelf verversen als je wat invult. Het gaat hier om het leren van de dagen van de week.</p>
+<!-- prefix oekrainse-dagen- vervangen voor volgende vraag. -->
+<div>
+<p id="oekrainse-dagen-vraag">
+</p>
+<div id="oekrainse-dagen-opties">
+
+</div>
+<button onclick="checkOekrainseDagenAntwoord()">Submit</button>
+<p id="oekrainse-dagen-resultaat" style="display: none;">
+</p>
+</div>
+<script>
+  const oekrainseDagen = [
+    {
+  vraag: "Wat is 'maandag' in het Oekraïens?",
+  opties: ["середа", "четвер", "понеділок", "вівторок", "п'ятниця", "субота", "неділя"],
+  antwoord: "понеділок"
+},
+{
+  vraag: "Wat is 'dinsdag' in het Oekraïens?",
+  opties: ["неділя", "вівторок", "четвер", "п'ятниця", "субота", "середа", "понеділок"],
+  antwoord: "вівторок"
+},
+{
+  vraag: "Wat is 'woensdag' in het Oekraïens?",
+  opties: ["четвер", "субота", "середа", "вівторок", "п'ятниця", "понеділок", "неділя"],
+  antwoord: "середа"
+},
+{
+  vraag: "Wat is 'donderdag' in het Oekraïens?",
+  opties: ["вівторок", "субота", "п'ятниця", "середа", "неділя", "понеділок", "четвер"],
+  antwoord: "четвер"
+},
+{
+  vraag: "Wat is 'vrijdag' in het Oekraïens?",
+  opties: ["неділя", "субота", "п'ятниця", "середа", "четвер", "понеділок", "вівторок"],
+  antwoord: "п'ятниця"
+},
+{
+  vraag: "Wat is 'zaterdag' in het Oekraïens?",
+  opties: ["вівторок", "субота", "п'ятниця", "середа", "четвер", "понеділок", "неділя"],
+  antwoord: "субота"
+}, 
+{
+  vraag: "Wat is 'понеділок' in het Nederlands?",
+  opties: ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"],
+  antwoord: "maandag"
+},
+{
+  vraag: "Wat is 'вівторок' in het Nederlands?",
+  opties: ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"],
+  antwoord: "dinsdag"
+},
+{
+  vraag: "Wat is 'середа' in het Nederlands?",
+  opties: ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"],
+  antwoord: "woensdag"
+},
+{
+  vraag: "Wat is 'четвер' in het Nederlands?",
+  opties: ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"],
+  antwoord: "donderdag"
+},
+{
+  vraag: "Wat is 'п'ятниця' in het Nederlands?",
+  opties: ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"],
+  antwoord: "vrijdag"
+},
+{
+  vraag: "Wat is 'субота' in het Nederlands?",
+  opties: ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"],
+  antwoord: "zaterdag"
+},
+{
+  vraag: "Wat is 'неділя' in het Nederlands?",
+  opties: ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"],
+  antwoord: "zondag"
+}
+  ];
+
+  function loadOekrainseDagenVraag() {
+    const randomIndex = Math.floor(Math.random() * oekrainseDagen.length);
+    const vraag = oekrainseDagen[randomIndex].vraag;
+
+    // Voeg een unieke prefix toe aan de id's
+    document.getElementById('oekrainse-dagen-vraag').textContent = vraag;
+    document.getElementById('oekrainse-dagen-resultaat').style.display = 'none';
+
+    // Clear previous options
+    const optiesDiv = document.getElementById('oekrainse-dagen-opties');
+    optiesDiv.innerHTML = '';
+
+    // Add options
+    for (let optie of oekrainseDagen[randomIndex].opties) {
+      const radioButton = document.createElement('input');
+      radioButton.type = 'radio';
+      radioButton.name = 'oekrainse-dagen-antwoord';
+      radioButton.value = optie;
+      optiesDiv.appendChild(radioButton);
+
+      const label = document.createElement('label');
+      label.textContent = optie;
+      optiesDiv.appendChild(label);
+
+      const lineBreak = document.createElement('br');
+      optiesDiv.appendChild(lineBreak);
+    }
+  }
+
+  function checkOekrainseDagenAntwoord() {
+    const userInput = document.querySelector('input[name="oekrainse-dagen-antwoord"]:checked').value;
+    const huidigeVraag = document.getElementById('oekrainse-dagen-vraag').textContent;
+    const correctAntwoord = oekrainseDagen.find(vraag => vraag.vraag === huidigeVraag).antwoord;
+
+    // Voeg een unieke prefix toe aan de id's
+    const resultaatElement = document.getElementById('oekrainse-dagen-resultaat');
+    resultaatElement.style.display = 'block';
+
+    if (userInput.toLowerCase() === correctAntwoord.toLowerCase()) {
+      resultaatElement.textContent = 'Correct!';
+      resultaatElement.style.color = 'green';
+    } else {
+      resultaatElement.textContent = 'Niet correct, het juiste antwoord is ' + correctAntwoord + '.';
+      resultaatElement.style.color = 'red';
+    }
+
+    setTimeout(loadOekrainseDagenVraag, 2000);
+  }
+
+  loadOekrainseDagenVraag();
+</script>
+<p><br></p>
+<p>De volgende oefening blijft zichzelf verversen elke keer als je een antwoord geeft. Het betreft het leren van de maanden van het jaar.</p>
+<!-- prefix oekrainse-maanden- vervangen voor volgende vraag. -->
+<div>
+<p id="oekrainse-maanden-vraag">
+</p>
+<div id="oekrainse-maanden-opties">
+
+</div>
+<button onclick="checkoekrainseMaandenAntwoord()">Submit</button>
+<p id="oekrainse-maanden-resultaat" style="display: none;">
+</p>
+</div>
+<script>
+  const oekrainseMaanden = [
+  {
+    vraag: "Wat is 'січень' in het Nederlands?",
+    opties: ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"],
+    antwoord: "januari"
+  },
+  {
+    vraag: "Wat is 'лютий' in het Nederlands?",
+    opties: ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"],
+    antwoord: "februari"
+  },
+  {
+    vraag: "Wat is 'березень' in het Nederlands?",
+    opties: ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"],
+    antwoord: "maart"
+  },
+  {
+    vraag: "Wat is 'квітень' in het Nederlands?",
+    opties: ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"],
+    antwoord: "april"
+  },
+  {
+    vraag: "Wat is 'травень' in het Nederlands?",
+    opties: ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"],
+    antwoord: "mei"
+  },
+  {
+    vraag: "Wat is 'червень' in het Nederlands?",
+    opties: ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"],
+    antwoord: "juni"
+  },
+  {
+    vraag: "Wat is 'липень' in het Nederlands?",
+    opties: ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"],
+    antwoord: "juli"
+  },
+  {
+    vraag: "Wat is 'серпень' in het Nederlands?",
+    opties: ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"],
+    antwoord: "augustus"
+  },
+  {
+    vraag: "Wat is 'вересень' in het Nederlands?",
+    opties: ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"],
+    antwoord: "september"
+  },
+  {
+    vraag: "Wat is 'жовтень' in het Nederlands?",
+    opties: ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"],
+    antwoord: "oktober"
+  },
+  {
+    vraag: "Wat is 'листопад' in het Nederlands?",
+    opties: ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"],
+    antwoord: "november"
+  },
+  {
+    vraag: "Wat is 'грудень' in het Nederlands?",
+    opties: ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"],
+    antwoord: "december"
+  }
+  ];
+
+  function loadoekrainseMaandenVraag() {
+    const randomIndex = Math.floor(Math.random() * oekrainseMaanden.length);
+    const vraag = oekrainseMaanden[randomIndex].vraag;
+
+    // Voeg een unieke prefix toe aan de id's
+    document.getElementById('oekrainse-maanden-vraag').textContent = vraag;
+    document.getElementById('oekrainse-maanden-resultaat').style.display = 'none';
+
+    // Clear previous options
+    const optiesDiv = document.getElementById('oekrainse-maanden-opties');
+    optiesDiv.innerHTML = '';
+
+    // Add options
+    for (let optie of oekrainseMaanden[randomIndex].opties) {
+      const radioButton = document.createElement('input');
+      radioButton.type = 'radio';
+      radioButton.name = 'oekrainse-maanden-antwoord';
+      radioButton.value = optie;
+      optiesDiv.appendChild(radioButton);
+
+      const label = document.createElement('label');
+      label.textContent = optie;
+      optiesDiv.appendChild(label);
+
+      const lineBreak = document.createElement('br');
+      optiesDiv.appendChild(lineBreak);
+    }
+  }
+
+  function checkoekrainseMaandenAntwoord() {
+    const userInput = document.querySelector('input[name="oekrainse-maanden-antwoord"]:checked').value;
+    const huidigeVraag = document.getElementById('oekrainse-maanden-vraag').textContent;
+    const correctAntwoord = oekrainseMaanden.find(vraag => vraag.vraag === huidigeVraag).antwoord;
+
+    // Voeg een unieke prefix toe aan de id's
+    const resultaatElement = document.getElementById('oekrainse-maanden-resultaat');
+    resultaatElement.style.display = 'block';
+
+    if (userInput.toLowerCase() === correctAntwoord.toLowerCase()) {
+      resultaatElement.textContent = 'Correct!';
+      resultaatElement.style.color = 'green';
+    } else {
+      resultaatElement.textContent = 'Niet correct, het juiste antwoord is ' + correctAntwoord + '.';
+      resultaatElement.style.color = 'red';
+    }
+
+    setTimeout(loadoekrainseMaandenVraag, 2000);
+  }
+
+  loadoekrainseMaandenVraag();
+</script>
+</section>
 </section>
 <section id="eten-en-drinken" class="level2" data-number="2.8">
 <h2 data-number="2.8" class="anchored" data-anchor-id="eten-en-drinken"><span class="header-section-number">2.8</span> Eten en drinken</h2>
@@ -1245,8 +1509,8 @@ ul.task-list li input[type="checkbox"] {
 </table>
 </section>
 </section>
-<section id="oefeningen" class="level2" data-number="2.10">
-<h2 data-number="2.10" class="anchored" data-anchor-id="oefeningen"><span class="header-section-number">2.10</span> Oefeningen</h2>
+<section id="oefeningen-1" class="level2" data-number="2.10">
+<h2 data-number="2.10" class="anchored" data-anchor-id="oefeningen-1"><span class="header-section-number">2.10</span> Oefeningen</h2>
 <!-- per unieke vraag, zonder controle -->
 <!-- <details> -->
 <!--   <summary>Hoe zeg je "hallo" in het Oekraïens? <br> <input type="text" placeholder="Typ hier" name="input"> </summary> -->

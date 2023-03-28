@@ -219,6 +219,130 @@ ul.task-list li input[type="checkbox"] {
 <p>In het hoofdstuk “Het alfabet en de uitspraak” (<a href="het-alfabet-en-de-uitspraak.html"><span>Chapter&nbsp;1</span></a>) leer je het Oekraïense alfabet en hoe je de letters correct uitspreekt. Dit is een belangrijke basis voor het leren van de taal, omdat het je in staat stelt om Oekraïense woorden correct te lezen en uit te spreken.</p>
 <p>In het hoofdstuk “Basis uitdrukkingen en woordenschat” (<a href="basis-uitdrukkingen-en-woordenschat.html"><span>Chapter&nbsp;2</span></a>) vind je een verzameling van de meest voorkomende en nuttige woorden en zinnen die je kunt gebruiken in alledaagse situaties. Deze sectie bevat bijvoorbeeld handige woorden voor begroetingen, afscheid nemen, persoonlijke informatie, getallen en tellen, dagen van de week, maanden en seizoenen, eten en drinken, familie en relaties, en vervoer, richtingen en bestemmignen.</p>
 <p>We hopen dat dit lesboek je helpt bij het leren van de Oekraïense taal en dat je er plezier aan beleeft. Veel succes met je taalstudie!</p>
+<div id="question-container">
+<p id="question">
+</p>
+<div id="options">
+
+</div>
+<button onclick="checkAnswer()">Submit</button>
+<p id="result" style="display: none;">
+</p>
+</div>
+<script>
+  const questions = [
+{
+      question: "Wat is 'maandag' in het Oekraïens?",
+      options: ["sereda", "chetver", "ponedylok", "vivtorok", "pyatnytsya", "subota", "nedilya"],
+      answer: "ponedylok"
+    },
+    {
+      question: "Wat is 'dinsdag' in het Oekraïens?",
+      options: ["nedilya", "vivtorok", "chetver", "pyatnytsya", "subota", "sereda", "ponedylok"],
+      answer: "vivtorok"
+    },
+    {
+      question: "Wat is 'woensdag' in het Oekraïens?",
+      options: ["chetver", "subota", "sereda", "vivtorok", "pyatnytsya", "ponedylok", "nedilya"],
+      answer: "sereda"
+    },
+    {
+      question: "Wat is 'donderdag' in het Oekraïens?",
+      options: ["vivtorok", "subota", "pyatnytsya", "sereda", "nedilya", "ponedylok", "chetver"],
+      answer: "chetver"
+    },
+    {
+      question: "Wat is 'vrijdag' in het Oekraïens?",
+      options: ["nedilya", "subota", "pyatnytsya", "sereda", "chetver", "ponedylok", "vivtorok"],
+      answer: "pyatnytsya"
+    },
+    {
+      question: "Wat is 'zaterdag' in het Oekraïens?",
+      options: ["vivtorok", "subota", "pyatnytsya", "sereda", "chetver", "ponedylok", "nedilya"],
+      answer: "subota"
+    }, 
+        {
+      question: "Wat is 'ponedylok' in het Nederlands?",
+      options: ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"],
+      answer: "maandag"
+    },
+    {
+      question: "Wat is 'vivtorok' in het Nederlands?",
+      options: ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"],
+      answer: "dinsdag"
+    },
+    {
+      question: "Wat is 'sereda' in het Nederlands?",
+      options: ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"],
+      answer: "woensdag"
+    },
+    {
+      question: "Wat is 'chetver' in het Nederlands?",
+      options: ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"],
+      answer: "donderdag"
+    },
+    {
+      question: "Wat is 'pyatnytsya' in het Nederlands?",
+      options: ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"],
+      answer: "vrijdag"
+    },
+    {
+      question: "Wat is 'subota' in het Nederlands?",
+      options: ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"],
+      answer: "zaterdag"
+    },
+    {
+      question: "Wat is 'nedilya' in het Nederlands?",
+      options: ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"],
+      answer: "zondag"
+    }
+  ];
+
+  function loadQuestion() {
+    const randomIndex = Math.floor(Math.random() * questions.length);
+    const question = questions[randomIndex];
+    document.getElementById('question').textContent = question.question;
+
+    // Clear previous options
+    const optionsDiv = document.getElementById('options');
+    optionsDiv.innerHTML = '';
+
+    // Add options
+    for (let option of question.options) {
+      const radioButton = document.createElement('input');
+      radioButton.type = 'radio';
+      radioButton.name = 'answer';
+      radioButton.value = option;
+      optionsDiv.appendChild(radioButton);
+
+      const label = document.createElement('label');
+      label.textContent = option;
+      optionsDiv.appendChild(label);
+
+      const lineBreak = document.createElement('br');
+      optionsDiv.appendChild(lineBreak);
+    }
+
+    document.getElementById('result').style.display = 'none';
+  }
+
+  function checkAnswer() {
+    const userInput = document.querySelector('input[name="answer"]:checked').value;
+    const currentQuestion = document.getElementById('question').textContent;
+    const correctAnswer = questions.find(q => q.question === currentQuestion).answer;
+    if (userInput.toLowerCase() === correctAnswer.toLowerCase()) {
+      document.getElementById('result').textContent = 'Correct!';
+      document.getElementById('result').style.color = 'green';
+    } else {
+      document.getElementById('result').textContent = 'Helaas, niet goed!';
+      document.getElementById('result').style.color = 'red';
+    }
+    document.getElementById('result').style.display = 'block';
+    setTimeout(loadQuestion, 2000);
+  }
+
+  loadQuestion();
+</script>
 
 
 
