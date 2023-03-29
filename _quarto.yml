@@ -8,14 +8,14 @@ book:
   date: "`r format(Sys.time(), '%d %B, %Y')`"
   chapters:
   - index.qmd
-  - part: inleiding-tot-de-oekraïense-taal.qmd
+  - part: ch00_inleiding-tot-de-oekraïense-taal.qmd
     chapters: 
      # - geschiedenis-en-achtergrond.qmd
-      - het-alfabet-en-de-uitspraak.qmd
-      - basis-uitdrukkingen-en-woordenschat.qmd
+      - ch01_het-alfabet-en-de-uitspraak.qmd
+      - ch02_basis-uitdrukkingen-en-woordenschat.qmd
   - part: Basisgrammatica.qmd
     chapters:
-      - zelfstandige-naamwoorden.qmd
+      - ch03_zelfstandige-naamwoorden.qmd
       - bijvoeglijke-naamwoorden.qmd
       - werkwoorden.qmd
       - telwoorden.qmd
@@ -47,6 +47,7 @@ book:
 # - "06-3-muziek-kunst-en-literatuur.qmd"
   - part: Appendixes.qmd
     chapters:
+    - oefeningen.qmd
     - references.qmd  
     - gpt4history.md
 

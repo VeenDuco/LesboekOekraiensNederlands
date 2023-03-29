@@ -1,0 +1,37 @@
+[
+  {
+    "vraag": "Wat is 'ponedylok' in het Nederlands?",
+    "opties": ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"],
+    "antwoord": "maandag"
+  },
+  {
+    "vraag": "Wat is 'vivtorok' in het Nederlands?",
+    "opties": ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"],
+    "antwoord": "dinsdag"
+  },
+  {
+    "vraag": "Wat is 'sereda' in het Nederlands?",
+    "opties": ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"],
+    "antwoord": "woensdag"
+  },
+  {
+    "vraag": "Wat is 'chetver' in het Nederlands?",
+    "opties": ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"],
+    "antwoord": "donderdag"
+  },
+  {
+    "vraag": "Wat is 'pyatnytsya' in het Nederlands?",
+    "opties": ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"],
+    "antwoord": "vrijdag"
+  },
+  {
+    "vraag": "Wat is 'subota' in het Nederlands?",
+    "opties": ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"],
+    "antwoord": "zaterdag"
+  },
+  {
+    "vraag": "Wat is 'nedilya' in het Nederlands?",
+    "opties": ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"],
+    "antwoord": "zondag"
+  }
+]

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Lesboek Oekraïens voor Nederlandstaligen - 6&nbsp; telwoorden.qmd</title>
+<title>Lesboek Oekraïens voor Nederlandstaligen - 9&nbsp; Oefeningen</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./voorzetsels-en-bijwoorden.html" rel="next">
-<link href="./werkwoorden.html" rel="prev">
+<link href="./references.html" rel="next">
+<link href="./Appendixes.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">telwoorden.qmd</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Oefeningen</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -143,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./telwoorden.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">telwoorden.qmd</span></a>
+  <a href="./telwoorden.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">telwoorden.qmd</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -178,12 +178,17 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./oefeningen.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Oefeningen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./gpt4history.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Chatgeschiedenis GPT-4 Lesboek</span></a>
+  <a href="./gpt4history.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Chatgeschiedenis GPT-4 Lesboek</span></a>
   </div>
 </li>
       </ul>
@@ -200,7 +205,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">telwoorden.qmd</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Oefeningen</span></h1>
 </div>
 
 
@@ -215,7 +220,52 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Inhoud komt hier…</p>
+<p>Hier is een eerste draft oefening die vragen haalt uit een .json file en die willekeurig stelt. De vraag vernieuwt steeds.</p>
+<div>
+<p id="question">
+</p>
+<input type="text" id="answer-input"> <button onclick="checkAnswer()">Controleer</button>
+<p id="result" style="display: none;">
+</p>
+</div>
+<script>
+  let quizData = [];
+
+  function loadQuizData() {
+    fetch('vragenbank_oefeningen.json')
+      .then(response => response.json())
+      .then(data => {
+        quizData = data;
+        loadQuestion();
+      });
+  }
+
+  function loadQuestion() {
+    const randomIndex = Math.floor(Math.random() * quizData.length);
+    const question = quizData[randomIndex].question;
+    const answer = quizData[randomIndex].answer;
+    document.getElementById('question').textContent = question;
+    document.getElementById('answer-input').value = '';
+    document.getElementById('result').style.display = 'none';
+  }
+
+  function checkAnswer() {
+    const userInput = document.getElementById("answer-input").value;
+    const currentQuestion = document.getElementById('question').textContent;
+    const correctAnswer = quizData.find(q => q.question === currentQuestion).answer;
+    if (userInput.toLowerCase() === correctAnswer.toLowerCase()) {
+      document.getElementById('result').textContent = 'Correct!';
+      document.getElementById('result').style.color = 'green';
+    } else {
+      document.getElementById('result').textContent = 'Niet correct, het juiste antwoord is ' + correctAnswer + '.';
+      document.getElementById('result').style.color = 'red';
+    }
+    document.getElementById('result').style.display = 'block';
+    setTimeout(loadQuestion, 2000);
+  }
+
+  loadQuizData();
+</script>
 
 
 
@@ -355,13 +405,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./werkwoorden.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">werkwoorden</span></span>
+      <a href="./Appendixes.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Appendixes.qmd</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./voorzetsels-en-bijwoorden.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">voorzetsels-en-bijwoorden.qmd</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./references.html" class="pagination-link">
+        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

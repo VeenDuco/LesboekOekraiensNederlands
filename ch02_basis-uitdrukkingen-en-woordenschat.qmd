@@ -571,40 +571,7 @@ Deze tabel bevat enkele van de meest voorkomende bestemmingen waar je mogelijk n
 
 ## Oefeningen
 
-<!-- per unieke vraag, zonder controle -->
-<!-- <details> -->
-<!--   <summary>Hoe zeg je "hallo" in het Oekraïens? <br> <input type="text" placeholder="Typ hier" name="input"> </summary> -->
-<!--   "Hallo" in het Oekraïens is "Привіт" (Pryvit). -->
-<!-- </details> -->
-<!-- Answer: <input type="text" name="website" required pattern="Привіт"> -->
 
-
-<!-- per unieke vraag -->
-<!-- <div> -->
-<!--   <p id="question">1. Hoe zeg je "hallo" in het Oekraïens?</p> -->
-<!--   <input type="text" id="answer-input"> -->
-<!--   <button onclick="checkAnswer()">Controleer</button> -->
-<!--   <p id="result" style="display: none;"></p> -->
-<!-- </div> -->
-
-<!-- <script> -->
-<!--   function checkAnswer() { -->
-<!--     const userInput = document.getElementById("answer-input").value; -->
-<!--     const correctAnswer = "Привіт"; -->
-<!--     if (userInput.toLowerCase() === correctAnswer.toLowerCase()) { -->
-<!--       document.getElementById("result").textContent = "Correct!"; -->
-<!--       document.getElementById("result").style.color = "green"; -->
-<!--     } else { -->
-<!--       document.getElementById("result").textContent = "Niet correct, the juiste antwoord is Привіт."; -->
-<!--       document.getElementById("result").style.color = "red"; -->
-<!--     } -->
-<!--     document.getElementById("result").style.display = "block"; -->
-<!--   } -->
-<!-- </script> -->
-
-
-
-<!-- Vragen en antwoorden uit CSV-bestand -->
 <script>
 const questions = [
   "Hoe zeg je 'hallo' in het Oekraïens?",
@@ -682,7 +649,7 @@ const answers = [
 </script>
 
 
-<!-- Vragen en antwoorden - 3 weergeven willekeurig-->
+<!-- Vragen en antwoorden - 5 weergeven willekeurig-->
 <div>
   <div id="qa-container"></div>
   <script>

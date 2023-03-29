@@ -1,0 +1,17 @@
+[
+  {
+    "question": "Wat is de hoofdstad van Frankrijk?",
+    "answer": "Parijs",
+    "hint": "De stad van de Eiffeltoren en de Notre-Dame"
+  },
+  {
+    "question": "Wat is de grootste planeet in ons zonnestelsel?",
+    "answer": "Jupiter",
+    "hint": "Genoemd naar de Romeinse oppergod"
+  },
+  {
+    "question": "Wie schreef de roman 'Pride and Prejudice'?",
+    "answer": "Jane Austen",
+    "hint": "Een Engelse romanschrijfster uit de 19e eeuw"
+  }
+]

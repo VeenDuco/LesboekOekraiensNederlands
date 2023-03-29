@@ -1,4 +1,6 @@
-#  voorzetsels-en-bijwoorden.qmd 
+#  Oefeningen
+
+Hier is een eerste draft oefening die vragen haalt uit een .json file en die willekeurig stelt. De vraag vernieuwt steeds. 
 
 <div>
   <p id="question"></p>
@@ -11,35 +13,21 @@
   let quizData = [];
 
   function loadQuizData() {
-    fetch('quiz_questions.csv')
-      .then(response => response.text())
+    fetch('vragenbank_oefeningen.json')
+      .then(response => response.json())
       .then(data => {
-        const rows = data.split('\n');
-        rows.forEach(row => {
-          const columns = row.split(',');
-          quizData.push({
-            question: columns[0],
-            answer: columns[1]
-          });
-        });
+        quizData = data;
         loadQuestion();
       });
   }
 
   function loadQuestion() {
-    if (quizData.length === 0) {
-      document.getElementById('question').textContent = 'Je hebt alle vragen beantwoord!';
-      document.getElementById('answer-input').style.display = 'none';
-      document.getElementById('result').style.display = 'none';
-    } else {
-      const randomIndex = Math.floor(Math.random() * quizData.length);
-      const question = quizData[randomIndex].question;
-      const answer = quizData[randomIndex].answer;
-      document.getElementById('question').textContent = question;
-      document.getElementById('answer-input').value = '';
-      document.getElementById('result').style.display = 'none';
-      quizData.splice(randomIndex, 1);
-    }
+    const randomIndex = Math.floor(Math.random() * quizData.length);
+    const question = quizData[randomIndex].question;
+    const answer = quizData[randomIndex].answer;
+    document.getElementById('question').textContent = question;
+    document.getElementById('answer-input').value = '';
+    document.getElementById('result').style.display = 'none';
   }
 
   function checkAnswer() {
