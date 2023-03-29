@@ -16,9 +16,9 @@ book:
   - part: Basisgrammatica.qmd
     chapters:
       - ch03_zelfstandige-naamwoorden.qmd
-      - bijvoeglijke-naamwoorden.qmd
-      - werkwoorden.qmd
-      - telwoorden.qmd
+      - ch04_bijvoeglijke-naamwoorden.qmd
+      - ch05_werkwoorden.qmd
+      - ch06_telwoorden.qmd
       - voorzetsels-en-bijwoorden.qmd
   - part: Dagelijkse communicatie.qmd
     chapters:

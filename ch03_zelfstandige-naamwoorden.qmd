@@ -310,24 +310,132 @@ Hier is een overzichtstabel van de naamvallen en hun vervoegingsregels voor mann
 
 ## Meervoud van zelfstandige naamwoorden
 
-In dit gedeelte leer je hoe je het meervoud van zelfstandige naamwoorden in het Oekraïens kunt vormen.
+Het vormen van het meervoud van zelfstandige naamwoorden in het Oekraïens varieert afhankelijk van het geslacht en de laatste letter van het woord. Hier zijn enkele algemene regels voor het maken van meervouden:
 
-### Reguliere meervoudsvorming
+### Mannelijk
 
-(Tekst over de reguliere manier om meervoudsvormen te maken.)
+1. Als het woord eindigt op een medeklinker, voeg dan `-и` toe.
+2. Als het woord eindigt op `-й` of `-ій`, vervang dan door `-і`.
+
+### Vrouwelijk
+
+1. Als het woord eindigt op `-а` of `-я`, vervang dan door `-и`.
+2. Als het woord eindigt op `-ь`, vervang dan door `-і`.
+
+### Onzijdig
+
+1. Als het woord eindigt op `-о`, vervang dan door `-а`.
+2. Als het woord eindigt op `-е`, vervang dan door `-я`.
+
+Houd er rekening mee dat er onregelmatige meervouden en uitzonderingen zijn. 
+
 
 ### Onregelmatige meervoudsvorming
 
-(Tekst over onregelmatige meervoudsvormen en uitzonderingen.)
+Hoewel er algemene regels zijn voor het vormen van meervouden in het Oekraïens, zijn er ook enkele onregelmatige meervoudsvormen en uitzonderingen. Hier zijn enkele voorbeelden van onregelmatige meervouden:
 
-## Belangrijke regels en uitzonderingen
+1. Sommige mannelijke zelfstandige naamwoorden die eindigen op een medeklinker vormen het meervoud door `-а` toe te voegen in plaats van `-и`.
+2. Zelfstandige naamwoorden die eindigen op `-ир` vormen het meervoud door `-і` toe te voegen, ongeacht het geslacht.
 
-In dit gedeelte worden enkele belangrijke regels en uitzonderingen met betrekking tot Oekraïense zelfstandige naamwoorden besproken.
 
-(Tekst over belangrijke regels en uitzonderingen.)
+## Belangrijke regels en uitzonderingen met betrekking tot Oekraïense zelfstandige naamwoorden
+
+Hier zijn enkele belangrijke regels en uitzonderingen om te onthouden bij het werken met Oekraïense zelfstandige naamwoorden:
+
+1. In het Oekraïens zijn er drie geslachten: mannelijk, vrouwelijk en onzijdig. Het geslacht van een zelfstandig naamwoord kan meestal worden bepaald op basis van de uitgang.
+2. Het Oekraïens kent zeven naamvallen: nominatief, genitief, datief, accusatief, instrumentalis, locatief en vocatief. De vorm van een zelfstandig naamwoord verandert afhankelijk van de naamval waarin het wordt gebruikt.
+3. Er zijn regels voor het vormen van meervouden van zelfstandige naamwoorden, maar er zijn ook onregelmatige meervoudsvormen en uitzonderingen.
+4. Sommige zelfstandige naamwoorden hebben een zachte en een harde variant, afhankelijk van de context. De zachte variant eindigt meestal op `-ь`.
+5. Zelfstandige naamwoorden die eindigen op `-ь` kunnen zowel mannelijk als vrouwelijk zijn. Er zijn geen specifieke regels om het geslacht te bepalen, dus het is belangrijk om vertrouwd te raken met deze woorden door oefening en blootstelling aan de taal.
+6. Sommige zelfstandige naamwoorden hebben geen meervoudsvorm en worden altijd in het enkelvoud gebruikt, zelfs als ze naar meerdere objecten verwijzen, zoals `молоко` (melk) of `сіль` (zout).
+
+Houd rekening met deze regels en uitzonderingen terwijl je met Oekraïense zelfstandige naamwoorden werkt. Oefening en blootstelling aan de taal zullen je helpen om vertrouwd te raken met de specifieke kenmerken van het Oekraïens.
 
 ## Oefeningen
 
-In dit gedeelte vind je oefeningen om je kennis van Oekraïense zelfstandige naamwoorden te testen en te oefenen.
+Hier zijn enkele oefeningen om je kennis van Oekraïense zelfstandige naamwoorden te testen en te oefenen. Probeer de juiste vorm van het zelfstandig naamwoord te geven op basis van de context en de regels die je hebt geleerd.
 
-(Oefeningen voor geslachtsherkenning, meervoudsvorming, naamvallen, enz.)
+### Oefeningen
+
+**Oefening 1: Geslacht bepalen**
+
+Bepaal het geslacht van de volgende zelfstandige naamwoorden:
+
+1. стіл
+2. вікно
+3. книга
+4. дерево
+5. собака
+6. птах
+7. кімната
+8. студент
+
+**Oefening 2: Naamvallen**
+
+Vul de juiste vorm van het zelfstandig naamwoord in voor de gegeven naamval:
+
+1. стіл (genitief)
+2. вікно (datief)
+3. книга (accusatief)
+4. дерево (instrumentalis)
+5. собака (locatief)
+6. птах (vocatief)
+
+**Oefening 3: Meervoudsvorming**
+
+Geef de meervoudsvorm van de volgende zelfstandige naamwoorden:
+
+1. стіл
+2. вікно
+3. книга
+4. дерево
+5. собака
+6. птах
+
+**Oefening 4: Zinnen vertalen**
+
+Vertaal de volgende zinnen naar het Oekraïens. Let op de juiste vorm en het geslacht van de zelfstandige naamwoorden:
+
+1. Het boek ligt op de tafel.
+2. Ik zie een vogel in de boom.
+3. De studenten lezen de boeken in de bibliotheek.
+4. We hebben veel ramen in ons huis.
+
+
+### Antwoorden 
+
+**Oefening 1: Geslacht bepalen**
+
+1. стіл - mannelijk
+2. вікно - onzijdig
+3. книга - vrouwelijk
+4. дерево - onzijdig
+5. собака - vrouwelijk
+6. птах - mannelijk
+7. кімната - vrouwelijk
+8. студент - mannelijk
+
+**Oefening 2: Naamvallen**
+
+1. стола
+2. вікну
+3. книгу
+4. деревом
+5. собаці
+6. птаху
+
+**Oefening 3: Meervoudsvorming**
+
+1. столи
+2. вікна
+3. книги
+4. дерева
+5. собаки
+6. птахи
+
+**Oefening 4: Zinnen vertalen**
+
+1. Книга лежить на столі.
+2. Я бачу птаха на дереві.
+3. Студенти читають книги в бібліотеці.
+4. У нашому будинку багато вікон.
