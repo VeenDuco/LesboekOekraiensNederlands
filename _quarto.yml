@@ -8,18 +8,21 @@ book:
   date: "`r format(Sys.time(), '%d %B, %Y')`"
   chapters:
   - index.qmd
-  - part: ch00_inleiding-tot-de-oekraïense-taal.qmd
+  - part: part01_inleiding-tot-de-oekraïense-taal.qmd
     chapters: 
      # - geschiedenis-en-achtergrond.qmd
       - ch01_het-alfabet-en-de-uitspraak.qmd
       - ch02_basis-uitdrukkingen-en-woordenschat.qmd
-  - part: Basisgrammatica.qmd
+  - part: part02_basisgrammatica.qmd
     chapters:
       - ch03_zelfstandige-naamwoorden.qmd
       - ch04_bijvoeglijke-naamwoorden.qmd
       - ch05_werkwoorden.qmd
-      - ch06_telwoorden.qmd
-      - voorzetsels-en-bijwoorden.qmd
+      # Voornaamwoorden
+      # Voorzetsels
+      # Zinsstructuur
+      # - ch06_telwoorden.qmd
+      # - voorzetsels-en-bijwoorden.qmd
   - part: Dagelijkse communicatie.qmd
     chapters:
       - hogere-getallen.qmd

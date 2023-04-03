@@ -2,7 +2,7 @@
 
 Dit boek is een poging om in samenwerking met GPT-4 een lesboek voor mijzelf te maken. Dit lesboek draait om het leren van de Oekraïense taal. Of het zal werken, dat is afwachten. Maar ik begin met goede moed en werk dit steeds een beetje verder bij. 
 
-Ben je al nieuwsgierig naar hoe het opschiet? Kijk eens even in @sec-alfabet of @sec-zelfstandige-naamwoorden. 
+Ben je al nieuwsgierig naar hoe het opschiet? Kijk eens even in @sec-alfabet of @sec-zelfstandige-naamwoorden. Wil je ook interactief oefenen? Er is een bijbehorende website waarop je vragen kan maken, zie [hier](https://veenduco.github.io/LesboekOekraiensNederlandsVragen/ch02_mc.html).
 
 
 <!-- https://chat.openai.com/chat/f90ec4bb-28cd-4c09-8bce-4c817728c56e -->
