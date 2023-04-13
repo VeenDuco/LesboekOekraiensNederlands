@@ -3,9 +3,43 @@
 Bijvoeglijke naamwoorden zijn woorden die gebruikt worden om een zelfstandig naamwoord nader te beschrijven of te kwalificeren. Ze geven meer informatie over de eigenschappen, kenmerken of kwaliteiten van het zelfstandig naamwoord waarmee ze verbonden zijn. Bijvoeglijke naamwoorden kunnen betrekking hebben op kleur, grootte, vorm, smaak, gevoel, of andere eigenschappen die helpen om een duidelijker beeld te geven van het zelfstandig naamwoord in kwestie. In de Oekraïense taal moeten bijvoeglijke naamwoorden overeenstemmen met het zelfstandig naamwoord wat betreft geslacht, getal en naamval.
 
 ## Overeenstemming van bijvoeglijke naamwoorden
-- Geslacht
-- Getal
-- Naamval
+
+In de Oekraïense taal moeten bijvoeglijke naamwoorden overeenstemmen met het zelfstandig naamwoord waarmee ze verbonden zijn. Dit betekent dat het bijvoeglijk naamwoord het geslacht, getal en naamval van het zelfstandig naamwoord moet weerspiegelen. Hieronder staan de regels voor het aanpassen van bijvoeglijke naamwoorden:
+
+1. **Geslacht**: Bijvoeglijke naamwoorden veranderen hun vorm afhankelijk van het geslacht van het zelfstandig naamwoord waarmee ze verbonden zijn. Ze nemen de mannelijke, vrouwelijke of onzijdige vorm aan, afhankelijk van het geslacht van het zelfstandig naamwoord.
+
+Bijvoorbeeld:
+
+- Mannelijk: старий дом - "oud huis"
+- Vrouwelijk: стара книга - "oud boek"
+- Onzijdig: старе вікно - "oud raam"
+
+2. **Getal**: Bijvoeglijke naamwoorden moeten ook overeenstemmen in getal met het zelfstandig naamwoord waarmee ze verbonden zijn. Dit betekent dat het bijvoeglijk naamwoord enkelvoud of meervoud moet zijn, afhankelijk van het zelfstandig naamwoord.
+
+Bijvoorbeeld:
+
+- Mannelijk enkelvoud: великий стіл - "grote tafel"
+- Mannelijk meervoud: великі столи - "grote tafels"
+- Vrouwelijk enkelvoud: велика книга - "groot boek"
+- Vrouwelijk meervoud: великі книги - "grote boeken"
+- Onzijdig enkelvoud: велике вікно - "groot raam"
+- Onzijdig meervoud: великі вікна - "grote ramen"
+
+
+3. **Naamval**: Net als zelfstandige naamwoorden, hebben bijvoeglijke naamwoorden verschillende vormen voor de zes naamvallen in het Oekraïens (nominatief, genitief, datief, accusatief, instrumentalis en locatief). De vorm van het bijvoeglijk naamwoord moet overeenkomen met de naamval van het zelfstandig naamwoord waarmee het verbonden is.
+
+Laten we het bijvoeglijk naamwoord "новий" (novyi, "nieuw") als voorbeeld nemen.
+
+- Mannelijk nominatief: новий дом - "nieuw huis"
+- Vrouwelijk nominatief: нова книга - "nieuw boek"
+- Onzijdig nominatief: нове вікно - "nieuw raam"
+
+- Mannelijk genitief: нового дому - "van een nieuw huis"
+- Vrouwelijk genitief: нової книги - "van een nieuw boek"
+- Onzijdig genitief: нового вікна - "van een nieuw raam"
+
+**Merk op** dat dit slechts een voorbeeld is van naamvallen voor elk geslacht. Bijvoeglijke naamwoorden hebben vormen voor alle naamvallen in het Oekraïens.
+
 
 ## Vorming van bijvoeglijke naamwoorden
 - Regelmatige bijvoeglijke naamwoorden
